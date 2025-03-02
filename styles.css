@@ -1,0 +1,377 @@
+body {
+  font-family: "Roboto";
+  border: salmon 5px solid;
+}
+
+/* @media (max-width: 1240px) {
+   {
+  }
+} */
+
+.container {
+  max-width: 2560px;
+  width: 90%;
+  margin: 0 100px 0 100px;
+  margin-bottom: 100px;
+  border: 2px solid green;
+}
+/* отступ без фона */
+.header-info {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(254, 248, 248, 1);
+  align-items: center;
+}
+li::marker {
+  color: rgba(238, 149, 145, 1);
+}
+.spacer {
+  flex: 1 1 auto;
+}
+
+.headflexnav {
+  display: flex;
+  gap: 1.875rem;
+}
+.Registrasi {
+  display: flex;
+  margin-left: 30px;
+  width: 90px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+}
+.pasti_content {
+  display: flex;
+  background-color: rgba(254, 248, 248, 1);
+  justify-content: center;
+  align-items: center;
+}
+.grey {
+  color: rgba(136, 136, 136, 1);
+}
+.white {
+  color: rgba(255, 255, 255, 1);
+}
+.dark_grey {
+  color: rgba(85, 85, 85, 1);
+}
+.pasti_list {
+  display: flex;
+  gap: 30px;
+  padding-left: 20px;
+}
+.pink {
+  color: rgba(238, 149, 145, 1);
+}
+.font70 {
+  font-size: 70px;
+  font-weight: 900;
+  color: rgba(85, 85, 85, 1);
+  margin: 0;
+}
+.font12 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.font16 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.font16list {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  color: rgba(136, 136, 136, 1);
+}
+.font20btn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+}
+.font20 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  color: rgba(136, 136, 136, 1);
+}
+.font14 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.font14btn {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.font40 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  color: rgba(85, 85, 85, 1);
+  margin: 0;
+}
+.font10 {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 40%;
+}
+.font90 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 100px;
+
+  margin: 20px 0 20px 0;
+}
+
+.font26 {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.font18 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.btnn {
+  border: none;
+  display: block;
+  border-radius: 10px;
+  color: rgba(246, 246, 246, 1);
+  background-color: rgba(238, 149, 145, 1);
+  box-shadow: 16px 16px 60px rgba(150, 88, 131, 0.4);
+}
+.btnn_registrasi {
+  border: none;
+  display: block;
+  border-radius: 10px;
+  color: rgba(246, 246, 246, 1);
+  background-color: rgba(238, 149, 145, 1);
+  box-shadow: 16px 16px 60px rgba(150, 88, 131, 0.4);
+  width: 90px;
+  height: 40px;
+}
+/* расположение текста неправильное */
+.pastibtn {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding: auto;
+  color: rgba(246, 246, 246, 1);
+}
+
+button:hover,
+button:active {
+  background-color: rgba(117, 161, 154, 0.384);
+  box-shadow: 16px 16px 40px 40px rgba(134, 156, 204, 0.884);
+}
+.brush {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.Beautypreneur {
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  align-items: center;
+}
+.Beautypreneurtext {
+  display: flex;
+  flex-direction: column;
+}
+
+.tablets {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+.big_tablet {
+  border: 8px solid rgba(246, 246, 246, 1);
+  color: rgba(246, 246, 246, 1);
+  border-radius: 1.25rem;
+  padding: 0 40px 0 40px;
+  background: linear-gradient(rgba(249, 168, 165, 1), rgba(226, 138, 134, 1));
+}
+.BeautySelling {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 110px;
+  background-color: rgba(254, 248, 248, 1);
+}
+
+.BeautySelling_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 95px;
+  background-color: rgba(254, 248, 248, 1);
+}
+.BeautySellingtabs {
+  display: flex;
+  gap: 50px;
+}
+.BeautySellingtabs :first-child {
+  display: flex;
+
+  flex-direction: column;
+  margin-top: 60px;
+}
+.BeautySellingtabs :last-child {
+  display: flex;
+
+  flex-direction: column;
+}
+/* .column1 {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.column2 {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+} */
+.small_tablet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.BeautySelling_text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+.Pokonya_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 200px;
+}
+.container_grid {
+  display: grid;
+  grid-template-columns: 274px 274px 274px 274px;
+  justify-content: center;
+  margin-bottom: 170px;
+  gap: 48px;
+  grid-template-rows: auto;
+}
+
+.block_buttons {
+  border: none;
+  border-radius: 16px;
+  color: rgba(246, 246, 246, 1);
+  background-color: rgba(255, 251, 251, 1);
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 45px 0 32px 0;
+}
+a {
+  text-decoration: none;
+  color: rgba(136, 136, 136, 1);
+}
+.block img {
+  background-color: rgba(249, 168, 165, 0.432);
+  border-radius: 10px;
+}
+
+.Meet_our_mentor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fem {
+  display: flex;
+  flex-direction: column;
+}
+.portraits {
+  display: flex;
+  gap: 48px;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 180px;
+}
+
+.fem_portrait {
+  border-radius: 16px;
+  box-shadow: 22px 22px 34px rgba(0, 0, 0, 0.473);
+}
+
+.Testimonial_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Testimonial {
+  display: flex;
+  flex-direction: column;
+}
+.Annabel {
+  display: flex;
+  gap: 30px;
+}
+
+.Annabel_title {
+  display: inline;
+}
+.Annabel_text {
+  display: flex;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 51px;
+}
+.logo_info {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(238, 149, 145, 1);
+  width: 550px;
+  border-radius: 0 150px 0 0;
+}
+.logo_text {
+  margin: 80px 100px;
+  display: flex;
+  flex-direction: column;
+}
+.navigation {
+  display: flex;
+  gap: 200px;
+  margin-top: 150px;
+}
+.Last {
+  display: flex;
+  margin-bottom: 0;
+  justify-content: space-around;
+}
+.pic {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.container_last {
+  max-width: 2560px;
+  width: 90%;
+  margin: 0 100px 0 100px;
+}
