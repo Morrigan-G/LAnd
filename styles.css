@@ -9,13 +9,12 @@ body {
 } */
 
 .container {
-  max-width: 2560px;
+  max-width: 1440px;
   width: 90%;
   margin: 0 100px 0 100px;
-  margin-bottom: 100px;
 }
 /* отступ без фона */
-.header-info {
+.header_info {
   display: flex;
   gap: 30px;
   justify-content: center;
@@ -30,10 +29,11 @@ li::marker {
   flex: 1 1 auto;
 }
 
-.headflexnav {
+.head_flexnav {
   display: flex;
   gap: 1.875rem;
 }
+
 .Registrasi {
   display: flex;
   margin-left: 30px;
@@ -47,6 +47,28 @@ li::marker {
   background-color: rgba(254, 248, 248, 1);
   justify-content: center;
   align-items: center;
+  padding: 60px 0 143px 0;
+}
+h1 {
+  color: rgba(85, 85, 85, 1);
+}
+h3 {
+  color: rgba(85, 85, 85, 1);
+}
+h4 {
+  color: rgba(85, 85, 85, 1);
+}
+a {
+  text-decoration: none;
+  color: rgba(136, 136, 136, 1);
+}
+
+p {
+  color: rgba(136, 136, 136, 1);
+}
+li {
+  color: rgba(136, 136, 136, 1);
+  font-weight: 700;
 }
 .grey {
   color: rgba(136, 136, 136, 1);
@@ -75,6 +97,7 @@ li::marker {
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
+  margin: 0;
 }
 
 .font16 {
@@ -82,12 +105,7 @@ li::marker {
   font-weight: 500;
   line-height: 26px;
 }
-.font16list {
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 26px;
-  color: rgba(136, 136, 136, 1);
-}
+
 .font20btn {
   font-size: 20px;
   font-weight: 700;
@@ -97,18 +115,13 @@ li::marker {
   font-size: 20px;
   font-weight: 700;
   line-height: 26px;
-  color: rgba(136, 136, 136, 1);
 }
 .font14 {
   font-size: 14px;
   font-weight: 500;
   line-height: 22px;
 }
-.font14btn {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 22px;
-}
+
 .font40 {
   font-size: 40px;
   font-weight: 700;
@@ -140,6 +153,7 @@ li::marker {
   font-size: 18px;
   font-weight: 700;
   line-height: 28px;
+  margin: 0;
 }
 .btnn {
   border: none;
@@ -160,12 +174,10 @@ li::marker {
   height: 40px;
 }
 /* расположение текста неправильное */
-.pastibtn {
+.pasti_btn {
   display: flex;
-  width: 100%;
-  flex-direction: column;
-  padding: auto;
-  color: rgba(246, 246, 246, 1);
+  padding-top: 40px;
+  padding-right: 41px;
 }
 
 button:hover,
@@ -184,8 +196,9 @@ button:active {
   gap: 70px;
   justify-content: center;
   align-items: center;
+  padding: 165px 0 276px 0;
 }
-.Beautypreneurtext {
+.Beautypreneur_text {
   display: flex;
   flex-direction: column;
 }
@@ -202,80 +215,78 @@ button:active {
   padding: 0 40px 0 40px;
   background: linear-gradient(rgba(249, 168, 165, 1), rgba(226, 138, 134, 1));
 }
-.BeautySelling {
+.Beauty_Selling {
   display: flex;
   gap: 40px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 110px;
-  background-color: rgba(254, 248, 248, 1);
+  padding: 110px 0 110px 0;
 }
 
-.BeautySelling_container {
+.Beauty_Selling_container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 95px;
-  background-color: rgba(254, 248, 248, 1);
+
+  padding: 0 0 204px 0;
 }
-.BeautySellingtabs {
+.Beauty_Selling_tabs {
   display: flex;
   gap: 50px;
 }
-.BeautySellingtabs :first-child {
+.tablet_positiont {
   display: flex;
-
   flex-direction: column;
+}
+.Beauty_Selling_tabs .tablet_positiont:first-child {
+  display: flex;
+  gap: 50px;
   margin-top: 60px;
 }
-.BeautySellingtabs :last-child {
+.Beauty_Selling_tabs .tablet_positiont:last-child {
   display: flex;
+  gap: 50px;
+}
 
-  flex-direction: column;
-}
-/* .column1 {
-  display: flex;
-  gap: 50px;
-  flex-direction: column;
-  margin-top: 60px;
-}
-.column2 {
-  display: flex;
-  gap: 50px;
-  flex-direction: column;
-} */
 .small_tablet {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgba(254, 248, 248, 1);
+  border-radius: 10px;
+  padding: 30px 30px 0 30px;
 }
-.BeautySelling_text {
+.Beauty_Selling_text {
   display: flex;
   flex-direction: column;
-  margin-top: 60px;
 }
 .Pokonya_container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 200px;
+  align-items: center;
+}
+.pokonya_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
 }
 .container_grid {
   display: grid;
   grid-template-columns: 274px 274px 274px 274px;
-  justify-content: center;
-  margin-bottom: 170px;
   gap: 48px;
-  grid-template-rows: auto;
+  padding: 80px 0 170px 0;
 }
 
 .block_buttons {
   border: none;
   border-radius: 16px;
   color: rgba(246, 246, 246, 1);
-  background-color: rgba(255, 251, 251, 1);
+  background-color: rgba(241, 231, 231, 0.404);
 }
 .block {
   display: flex;
@@ -283,10 +294,7 @@ button:active {
   align-items: center;
   margin: 45px 0 32px 0;
 }
-a {
-  text-decoration: none;
-  color: rgba(136, 136, 136, 1);
-}
+
 .block img {
   background-color: rgba(249, 168, 165, 0.432);
   border-radius: 10px;
@@ -307,8 +315,7 @@ a {
   display: flex;
   gap: 48px;
   justify-content: center;
-  margin-top: 80px;
-  margin-bottom: 180px;
+  padding: 80px 0 180px 0;
 }
 
 .fem_portrait {
@@ -318,59 +325,52 @@ a {
 
 .Testimonial_container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 .Testimonial {
   display: flex;
   flex-direction: column;
 }
+.spacer1 {
+  display: flex;
+  flex: 1 1 auto;
+  max-width: 45%;
+}
 .Annabel {
   display: flex;
   gap: 30px;
-}
-
-.Annabel_title {
-  display: inline;
-}
-.Annabel_text {
-  display: flex;
+  padding: 40px 0 0 0;
 }
 
 .arrow {
   display: flex;
   align-items: center;
-  margin-bottom: 51px;
 }
 .logo_info {
   display: flex;
   flex-direction: column;
   background-color: rgba(238, 149, 145, 1);
-  width: 550px;
   border-radius: 0 150px 0 0;
 }
+
 .logo_text {
-  margin: 80px 100px;
   display: flex;
   flex-direction: column;
+  padding: 80px 100px;
+  width: 350px;
 }
 .navigation {
   display: flex;
-  gap: 200px;
-  margin-top: 150px;
+  gap: 80px;
+  padding: 147px 0 0px 100px;
 }
 .Last {
   display: flex;
-  margin-bottom: 0;
-  justify-content: space-around;
+  align-items: center;
 }
 .pic {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-}
-.container_last {
-  max-width: 2560px;
-  width: 90%;
-  margin: 0 100px 0 100px;
+  margin: 0;
+  padding: 0;
 }
